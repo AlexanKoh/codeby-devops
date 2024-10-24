@@ -1,3 +1,4 @@
 # codeby-devops
 Учимся потихоньку
- point 5.2
+second try
+point 5.2
