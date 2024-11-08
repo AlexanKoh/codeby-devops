@@ -1,0 +1,1019 @@
+Script started on 2024-11-08 23:22:46+04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="99" LINES="55"]
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ ps -aux
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.0 168256 13012 ?        Ss   22:54   0:05 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    22:54   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    22:54   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-netns]
+root           8  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/0:0-mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    22:54   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    22:54   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    22:54   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    22:54   0:00 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/1:0-events]
+root          26  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/4]
+root          42  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/4:0-mm_percpu_wq]
+root          44  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/4:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/5]
+root          50  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/5:0H-events_highpri]
+root          51  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/6]
+root          56  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/6:0H-events_highpri]
+root          57  0.0  0.0      0     0 ?        S    22:54   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    22:54   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    22:54   0:00 [migration/7]
+root          60  0.0  0.0      0     0 ?        S    22:54   0:00 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/7:0H-events_highpri]
+root          63  0.0  0.0      0     0 ?        S    22:54   0:00 [kdevtmpfs]
+root          64  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-inet_]
+root          66  0.0  0.0      0     0 ?        S    22:54   0:00 [kauditd]
+root          67  0.0  0.0      0     0 ?        S    22:54   0:00 [khungtaskd]
+root          68  0.0  0.0      0     0 ?        S    22:54   0:00 [oom_reaper]
+root          70  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-write]
+root          71  0.0  0.0      0     0 ?        S    22:54   0:00 [kcompactd0]
+root          72  0.0  0.0      0     0 ?        SN   22:54   0:00 [ksmd]
+root          73  0.0  0.0      0     0 ?        SN   22:54   0:00 [khugepaged]
+root          74  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-kinte]
+root          75  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-kbloc]
+root          76  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-blkcg]
+root          77  0.0  0.0      0     0 ?        S    22:54   0:00 [irq/9-acpi]
+root          80  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-tpm_d]
+root          81  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-ata_s]
+root          82  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-md]
+root          83  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-md_bi]
+root          84  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-edac-]
+root          85  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-devfr]
+root          86  0.0  0.0      0     0 ?        S    22:54   0:00 [watchdogd]
+root          88  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/0:1H-kblockd]
+root          89  0.0  0.0      0     0 ?        S    22:54   0:00 [kswapd0]
+root          90  0.0  0.0      0     0 ?        S    22:54   0:00 [ecryptfs-kthread]
+root          91  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-kthro]
+root          92  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-acpi_]
+root          94  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-mld]
+root          95  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/1:1H-kblockd]
+root          96  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-ipv6_]
+root         103  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-kstrp]
+root         104  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/2:1-events]
+root         107  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/7:1-inet_frag_wq]
+root         123  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-charg]
+root         142  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/2:1H-kblockd]
+root         146  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/7:1H-kblockd]
+root         157  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/3:1H-kblockd]
+root         158  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/4:1H-kblockd]
+root         159  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/6:1H-kblockd]
+root         160  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/5:1H-kblockd]
+root         168  0.0  0.0      0     0 ?        I    22:54   0:00 [kworker/6:2-events]
+root         198  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_0]
+root         199  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         200  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_1]
+root         201  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         202  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_2]
+root         203  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         204  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_3]
+root         205  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         206  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_4]
+root         207  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         208  0.0  0.0      0     0 ?        S    22:54   0:00 [scsi_eh_5]
+root         209  0.0  0.0      0     0 ?        I<   22:54   0:00 [kworker/R-scsi_]
+root         224  0.0  0.0      0     0 ?        I    22:55   0:00 [kworker/5:2-events]
+root         244  0.0  0.0      0     0 ?        S    22:55   0:00 [jbd2/sdb5-8]
+root         245  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-ext4-]
+root         284  0.0  0.1  57164 23552 ?        S<s  22:55   0:00 /lib/systemd/systemd-journald
+root         339  0.0  0.0  28464  8192 ?        Ss   22:55   0:01 /lib/systemd/systemd-udevd
+root         393  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-led_w]
+root         396  0.0  0.0      0     0 ?        I    22:55   0:00 [kworker/3:2-mm_percpu_wq]
+root         397  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-crypt]
+root         413  0.0  0.0      0     0 ?        S    22:55   0:00 [irq/146-mei_me]
+root         414  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-cfg80]
+root         447  1.3  0.0      0     0 ?        I    22:55   0:23 [kworker/u16:10-events_power_eff
+root         450  0.8  0.0      0     0 ?        I    22:55   0:14 [kworker/u16:11-events_unbound]
+root         523  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-ath10]
+root         524  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-ath10]
+root         525  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-ath10]
+root         590  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-nvkm-]
+root         599  0.0  0.0      0     0 ?        I<   22:55   0:00 [kworker/R-ttm]
+root         600  0.0  0.0      0     0 ?        S    22:55   0:00 [card0-crtc0]
+root         601  0.0  0.0      0     0 ?        S    22:55   0:00 [card0-crtc1]
+root         602  0.0  0.0      0     0 ?        S    22:55   0:00 [card0-crtc2]
+root         603  0.0  0.0      0     0 ?        S    22:55   0:00 [card0-crtc3]
+systemd+     688  0.0  0.0  14836  6784 ?        Ss   22:55   0:00 /lib/systemd/systemd-oomd
+systemd+     689  0.0  0.0  26060 13672 ?        Ss   22:55   0:00 /lib/systemd/systemd-resolved
+root         713  0.0  0.0 240124  7372 ?        Ssl  22:55   0:00 /usr/libexec/accounts-daemon
+root         714  0.0  0.0   2816  1792 ?        Ss   22:55   0:00 /usr/sbin/acpid
+avahi        717  0.0  0.0   7708  3968 ?        Ss   22:55   0:00 avahi-daemon: running [alexander
+root         718  0.0  0.0  10592  5248 ?        Ss   22:55   0:00 /usr/lib/bluetooth/bluetoothd
+root         719  0.0  0.0   9504  2944 ?        Ss   22:55   0:00 /usr/sbin/cron -f -P
+message+     720  0.0  0.0  10992  6016 ?        Ss   22:55   0:01 @dbus-daemon --system --address=
+root         721  0.0  0.1 261272 18524 ?        Ssl  22:55   0:00 /usr/sbin/NetworkManager --no-da
+root         740  0.0  0.0  82804  3968 ?        Ssl  22:55   0:00 /usr/sbin/irqbalance --foregroun
+root         741  0.0  0.1  41076 21364 ?        Ss   22:55   0:00 /usr/bin/python3 /usr/bin/networ
+root         742  0.1  0.0 242524 11116 ?        Ssl  22:55   0:01 /usr/libexec/polkitd --no-debug
+root         743  0.0  0.0 240104  7520 ?        Ssl  22:55   0:00 /usr/libexec/power-profiles-daem
+syslog       744  0.0  0.0 222404  6272 ?        Ssl  22:55   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         747  0.6  0.2 1838464 37260 ?       Ssl  22:55   0:10 /usr/lib/snapd/snapd
+root         748  0.0  0.0 236392  6528 ?        Ssl  22:55   0:00 /usr/libexec/switcheroo-control
+root         749  0.0  0.0  48400  8020 ?        Ss   22:55   0:00 /lib/systemd/systemd-logind
+root         750  0.0  0.0 128608  9984 ?        Ssl  22:55   0:00 /usr/sbin/thermald --systemd --d
+root         751  0.0  0.0 393592 13792 ?        Ssl  22:55   0:00 /usr/libexec/udisks2/udisksd
+root         753  0.0  0.0  17712 11520 ?        Ss   22:55   0:00 /sbin/wpa_supplicant -u -s -O /r
+avahi        765  0.0  0.0   7444  1300 ?        S    22:55   0:00 avahi-daemon: chroot helper
+root         813  0.0  0.0  14824  2960 ?        Ss   22:55   0:00 /usr/bin/vmware-usbarbitrator
+root         838  0.0  0.0 244240 11948 ?        Ssl  22:55   0:00 /usr/sbin/ModemManager
+root         848  0.0  0.0  73024 13696 ?        Ss   22:55   0:00 /usr/sbin/cupsd -l
+root         851  0.0  0.1 118068 23424 ?        Ssl  22:55   0:00 /usr/bin/python3 /usr/share/unat
+root         978  0.0  0.0      0     0 ?        I    22:55   0:00 [kworker/7:3-events]
+root         983  0.0  0.0 241364  8704 ?        Ssl  22:55   0:00 /usr/sbin/gdm3
+rtkit       1018  0.0  0.0 154004  3072 ?        SNsl 22:55   0:00 /usr/libexec/rtkit-daemon
+root        1044  0.0  0.0 172060 11136 ?        Ssl  22:55   0:00 /usr/sbin/cups-browsed
+kernoops    1051  0.0  0.0  13092  2208 ?        Ss   22:55   0:00 /usr/sbin/kerneloops --test
+kernoops    1053  0.0  0.0  13092  2220 ?        Ss   22:55   0:00 /usr/sbin/kerneloops
+root        1134  0.0  0.0   9836  2436 ?        Ss   22:55   0:00 /usr/sbin/vmware-authdlauncher
+root        1195  0.0  0.0 242364  8704 ?        Ssl  22:55   0:00 /usr/libexec/upowerd
+root        1202  0.3  0.2 373100 39912 ?        Ssl  22:55   0:06 /usr/libexec/packagekitd
+colord      1404  0.0  0.0 245488 13200 ?        Ssl  22:55   0:00 /usr/libexec/colord
+root        1428  0.0  0.0 170736 10616 ?        Sl   22:55   0:00 gdm-session-worker [pam/gdm-pass
+alexand+    1439  0.0  0.0  19244 11776 ?        Ss   22:55   0:00 /lib/systemd/systemd --user
+alexand+    1440  0.0  0.0 170384  5896 ?        S    22:55   0:00 (sd-pam)
+alexand+    1446  0.0  0.0  39864  6656 ?        S<sl 22:55   0:00 /usr/bin/pipewire
+alexand+    1447  0.0  0.0  23620  6528 ?        Ssl  22:55   0:00 /usr/bin/pipewire-media-session
+alexand+    1448  0.0  0.1 1760720 28992 ?       S<sl 22:55   0:00 /usr/bin/pulseaudio --daemonize=
+alexand+    1465  0.0  0.0   9832  5632 ?        Ss   22:55   0:00 /usr/bin/dbus-daemon --session -
+alexand+    1466  0.0  0.0 536920  7168 ?        Ssl  22:55   0:00 /usr/libexec/xdg-document-portal
+alexand+    1470  0.0  0.0 236164  6016 ?        Ssl  22:55   0:00 /usr/libexec/xdg-permission-stor
+root        1476  0.0  0.0   2796  1792 ?        Ss   22:55   0:00 fusermount3 -o rw,nosuid,nodev,f
+alexand+    1491  0.0  0.0 388396  7836 ?        Sl   22:55   0:00 /usr/bin/gnome-keyring-daemon --
+root        1498  0.0  0.0      0     0 ?        S<   22:55   0:00 [krfcommd]
+alexand+    1503  0.0  0.0 162396  6016 tty2     Ssl+ 22:55   0:00 /usr/libexec/gdm-wayland-session
+alexand+    1506  0.0  0.0 223052 15744 tty2     Sl+  22:55   0:00 /usr/libexec/gnome-session-binar
+alexand+    1561  0.0  0.0  91920  5504 ?        Ssl  22:56   0:00 /usr/libexec/gnome-session-ctl -
+alexand+    1570  0.0  0.0 240768  7808 ?        Ssl  22:56   0:00 /usr/libexec/gvfsd
+root        1571  0.0  0.0      0     0 ?        I    22:56   0:00 [kworker/1:3-cgroup_destroy]
+alexand+    1576  0.0  0.0 380896  6528 ?        Sl   22:56   0:00 /usr/libexec/gvfsd-fuse /run/use
+alexand+    1587  0.0  0.1 519292 17152 ?        Ssl  22:56   0:00 /usr/libexec/gnome-session-binar
+alexand+    1608  0.0  0.0 309628  7680 ?        Sl   22:56   0:00 /usr/libexec/at-spi-bus-launcher
+alexand+    1615  0.0  0.0   8432  4352 ?        S    22:56   0:00 /usr/bin/dbus-daemon --config-fi
+alexand+    1618  1.1  1.6 4843748 270828 ?      Ssl  22:56   0:19 /usr/bin/gnome-shell
+alexand+    1643  0.0  0.1 582808 18048 ?        Sl   22:56   0:00 /usr/libexec/gnome-shell-calenda
+alexand+    1644  0.0  0.0 316068 10496 ?        Ssl  22:56   0:00 /usr/libexec/gvfs-udisks2-volume
+alexand+    1655  0.0  0.1 392260 25472 ?        Ssl  22:56   0:00 /usr/libexec/evolution-source-re
+alexand+    1656  0.0  0.0 315224  7808 ?        Ssl  22:56   0:00 /usr/libexec/gvfs-afc-volume-mon
+alexand+    1670  0.0  0.0 236600  6528 ?        Ssl  22:56   0:00 /usr/libexec/gvfs-mtp-volume-mon
+alexand+    1674  0.0  0.0 236644  6528 ?        Ssl  22:56   0:00 /usr/libexec/gvfs-goa-volume-mon
+alexand+    1678  0.0  0.2 587760 41728 ?        Sl   22:56   0:00 /usr/libexec/goa-daemon
+alexand+    1715  0.0  0.1 840504 30592 ?        Ssl  22:56   0:00 /usr/libexec/evolution-calendar-
+alexand+    1746  0.0  0.0 157100  5760 ?        Ssl  22:56   0:00 /usr/libexec/dconf-service
+alexand+    1747  0.0  0.1 746012 28672 ?        Ssl  22:56   0:00 /usr/libexec/evolution-addressbo
+alexand+    1763  0.0  0.0 338412 14976 ?        Sl   22:56   0:00 /usr/libexec/goa-identity-servic
+alexand+    1768  0.0  0.0 237560  7040 ?        Ssl  22:56   0:00 /usr/libexec/gvfs-gphoto2-volume
+alexand+    1790  0.0  0.0 388612  8448 ?        Sl   22:56   0:00 /usr/libexec/gvfsd-trash --spawn
+alexand+    1798  0.0  0.1 2931292 27780 ?       Sl   22:56   0:00 /usr/bin/gjs /usr/share/gnome-sh
+alexand+    1800  0.0  0.0 162688  7552 ?        Sl   22:56   0:00 /usr/libexec/at-spi2-registryd -
+alexand+    1815  0.0  0.0   2892  1536 ?        Ss   22:56   0:00 sh -c /usr/bin/ibus-daemon --pan
+alexand+    1816  0.0  0.0 310440  6784 ?        Ssl  22:56   0:00 /usr/libexec/gsd-a11y-settings
+alexand+    1818  0.0  0.0 315316 11784 ?        Sl   22:56   0:00 /usr/bin/ibus-daemon --panel dis
+alexand+    1819  0.0  0.1 462660 26240 ?        Ssl  22:56   0:00 /usr/libexec/gsd-color
+alexand+    1821  0.0  0.0 375480 16256 ?        Ssl  22:56   0:00 /usr/libexec/gsd-datetime
+alexand+    1824  0.0  0.0 311932  7680 ?        Ssl  22:56   0:00 /usr/libexec/gsd-housekeeping
+alexand+    1827  0.0  0.1 340604 21740 ?        Ssl  22:56   0:00 /usr/libexec/gsd-keyboard
+alexand+    1829  0.0  0.1 864176 26628 ?        Ssl  22:56   0:00 /usr/libexec/gsd-media-keys
+alexand+    1830  0.0  0.1 450580 25656 ?        Ssl  22:56   0:00 /usr/libexec/gsd-power
+alexand+    1832  0.0  0.0 249868 11264 ?        Ssl  22:56   0:00 /usr/libexec/gsd-print-notificat
+alexand+    1834  0.0  0.0 457868  6656 ?        Ssl  22:56   0:00 /usr/libexec/gsd-rfkill
+alexand+    1835  0.0  0.0 236300  6528 ?        Ssl  22:56   0:00 /usr/libexec/gsd-screensaver-pro
+alexand+    1841  0.0  0.0 465952 10624 ?        Ssl  22:56   0:00 /usr/libexec/gsd-sharing
+alexand+    1848  0.0  0.0 312316  8064 ?        Ssl  22:56   0:00 /usr/libexec/gsd-smartcard
+alexand+    1855  0.0  0.0 319352  9728 ?        Ssl  22:56   0:00 /usr/libexec/gsd-sound
+alexand+    1861  0.0  0.1 341196 22016 ?        Ssl  22:56   0:00 /usr/libexec/gsd-wacom
+alexand+    1871  0.0  0.3 827976 64384 ?        Sl   22:56   0:00 /usr/libexec/evolution-data-serv
+alexand+    1896  0.0  0.0 232272  7552 ?        Sl   22:56   0:00 /usr/libexec/gsd-disk-utility-no
+alexand+    1915  0.0  0.0 342368 14848 ?        Sl   22:56   0:00 /usr/libexec/gsd-printer
+alexand+    1941  0.0  0.0 163492  7168 ?        Sl   22:56   0:00 /usr/libexec/ibus-memconf
+alexand+    1942  0.0  0.1 347816 28644 ?        Sl   22:56   0:01 /usr/libexec/ibus-extension-gtk3
+alexand+    1950  0.0  0.0 237272  7424 ?        Sl   22:56   0:00 /usr/libexec/ibus-portal
+alexand+    1989  0.3  1.1 917896 184448 ?       Sl   22:56   0:05 /snap/snap-store/1113/usr/bin/sn
+alexand+    2005  0.0  0.0 163492  7168 ?        Sl   22:56   0:00 /usr/libexec/ibus-engine-simple
+alexand+    2048  0.0  0.2 645888 36688 ?        SNsl 22:56   0:00 /usr/libexec/tracker-miner-fs-3
+alexand+    2139  0.0  0.1 2931280 27900 ?       Sl   22:56   0:00 /usr/bin/gjs /usr/share/gnome-sh
+alexand+    2166  0.0  0.4 3131332 67632 ?       Sl   22:56   0:00 gjs /usr/share/gnome-shell/exten
+alexand+    2224  0.0  0.0 623824 13696 ?        Ssl  22:56   0:00 /usr/libexec/xdg-desktop-portal
+alexand+    2233  0.0  0.1 728600 29368 ?        Ssl  22:56   0:00 /usr/libexec/xdg-desktop-portal-
+alexand+    2248  0.0  0.1 344480 25604 ?        Ssl  22:56   0:00 /usr/libexec/xdg-desktop-portal-
+alexand+    2284  0.0  0.0 163072  6400 ?        Ssl  22:56   0:00 /usr/libexec/gvfsd-metadata
+root        2328  0.0  0.1 394464 32432 ?        Ssl  22:56   0:00 /usr/libexec/fwupd/fwupd
+alexand+    3983  0.0  0.1 418900 26116 ?        Sl   22:57   0:00 update-notifier
+root        4056  0.0  0.0      0     0 ?        I<   22:57   0:00 [kworker/R-xfsal]
+root        4057  0.0  0.0      0     0 ?        I<   22:57   0:00 [kworker/R-xfs_m]
+root        4060  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsIO]
+root        4061  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4062  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4063  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4064  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4065  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4066  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4067  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4068  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsCommit]
+root        4069  0.0  0.0      0     0 ?        S    22:57   0:00 [jfsSync]
+alexand+    5613  0.0  0.0  39128 12032 ?        Ss   22:58   0:00 /snap/snapd-desktop-integration/
+alexand+    5785  0.0  0.1 503028 30964 ?        Sl   22:58   0:00 /snap/snapd-desktop-integration/
+alexand+    5954  3.3  2.4 34278948 404540 ?     SLl  22:58   0:49 /opt/google/chrome/chrome
+alexand+    5960  0.0  0.0   8520  1920 ?        S    22:58   0:00 cat
+alexand+    5961  0.0  0.0   8520  1920 ?        S    22:58   0:00 cat
+alexand+    5963  0.0  0.0 33577008 3584 ?       Sl   22:58   0:00 /opt/google/chrome/chrome_crashp
+alexand+    5965  0.0  0.0 33568796 3328 ?       Sl   22:58   0:00 /opt/google/chrome/chrome_crashp
+alexand+    5971  0.0  0.3 33933020 60032 ?      S    22:58   0:00 /opt/google/chrome/chrome --type
+alexand+    5972  0.0  0.3 33933012 60416 ?      S    22:58   0:00 /opt/google/chrome/chrome --type
+alexand+    5974  0.0  0.1 33933040 17184 ?      S    22:58   0:00 /opt/google/chrome/chrome --type
+alexand+    5984  0.1  0.5 314092 87092 ?        Sl   22:58   0:01 /usr/bin/Xwayland :0 -rootless -
+alexand+    5990  0.0  0.4 606680 80264 ?        Ssl  22:58   0:00 /usr/libexec/gsd-xsettings
+alexand+    6016  0.0  0.1 194204 25084 ?        Sl   22:59   0:00 /usr/libexec/ibus-x11
+alexand+    6034  0.8  1.1 34269480 191600 ?     Sl   22:59   0:11 /opt/google/chrome/chrome --type
+alexand+    6039  0.3  0.7 33962868 123524 ?     Sl   22:59   0:05 /opt/google/chrome/chrome --type
+alexand+    6057  0.0  0.3 33991836 54772 ?      Sl   22:59   0:00 /opt/google/chrome/chrome --type
+alexand+    6358  0.0  0.4 34185484 76672 ?      Sl   22:59   0:00 /opt/google/chrome/chrome --type
+alexand+    6428  1.8  2.1 1215424692 343288 ?   Sl   23:00   0:25 /opt/google/chrome/chrome --type
+alexand+    6456  1.1  1.4 1212114560 228344 ?   Sl   23:00   0:16 /opt/google/chrome/chrome --type
+alexand+    6526  0.2  0.3 557840 54932 ?        Rsl  23:01   0:03 /usr/libexec/gnome-terminal-serv
+alexand+    6544  0.0  0.0  11960  5760 pts/0    Ss   23:01   0:00 bash
+root        6633  0.0  0.0      0     0 ?        I<   23:01   0:00 [kworker/u17:7-ttm]
+root        6636  0.0  0.0      0     0 ?        I<   23:01   0:00 [kworker/u17:14-ttm]
+alexand+    6906  0.0  0.8 1212075068 136300 ?   Sl   23:05   0:00 /opt/google/chrome/chrome --type
+root        6948  0.5  0.0      0     0 ?        I    23:05   0:05 [kworker/u16:0-events_power_effi
+root        7196  0.0  0.0      0     0 ?        I<   23:08   0:00 [kworker/u17:0-ttm]
+root        7298  0.0  0.0      0     0 ?        I<   23:09   0:00 [kworker/u17:2-ttm]
+alexand+    7437  2.1  1.4 1212123064 232056 ?   Sl   23:11   0:14 /opt/google/chrome/chrome --type
+alexand+    7454  0.0  0.4 1212033692 73716 ?    Sl   23:11   0:00 /opt/google/chrome/chrome --type
+root        7603  0.0  0.0      0     0 ?        I    23:13   0:00 [kworker/2:2-inet_frag_wq]
+root        8065  0.7  0.0      0     0 ?        I    23:13   0:04 [kworker/u16:1-events_unbound]
+root        8447  0.0  0.0  15436  9088 ?        Ss   23:14   0:00 sshd: /usr/sbin/sshd -D [listene
+root        8657  0.0  0.0      0     0 ?        I<   23:15   0:00 [kworker/u17:1-ttm]
+alexand+    8659  0.0  0.0   7980  5632 ?        S    23:15   0:00 /usr/bin/ssh-agent -D -a /run/us
+root        8744  0.0  0.0      0     0 ?        I<   23:16   0:00 [kworker/R-tls-s]
+root        8746  0.0  0.0      0     0 ?        I    23:16   0:00 [kworker/0:1-events]
+root        8783  0.0  0.0      0     0 ?        I<   23:16   0:00 [kworker/u17:5-ttm]
+root        8784  0.0  0.0      0     0 ?        I<   23:16   0:00 [kworker/u17:6-ttm]
+root        8790  0.0  0.0      0     0 ?        I<   23:16   0:00 [kworker/u17:13-ttm]
+alexand+    8832  0.2  0.4 868700 76616 ?        Sl   23:16   0:00 /usr/bin/nautilus --gapplication
+root        8858  0.0  0.0      0     0 ?        I    23:16   0:00 [kworker/4:1-events]
+root        8859  0.0  0.0      0     0 ?        I    23:16   0:00 [kworker/5:0-events]
+root        8926  0.0  0.0      0     0 ?        I    23:17   0:00 [kworker/3:3-events]
+root        8927  0.0  0.0      0     0 ?        I    23:17   0:00 [kworker/6:0-events]
+root        9000  0.0  0.0      0     0 ?        I    23:19   0:00 [kworker/2:0]
+root        9147  0.0  0.0      0     0 ?        I    23:20   0:00 [kworker/7:0-mm_percpu_wq]
+alexand+    9201  0.0  0.0  12560  3584 pts/0    T    23:21   0:00 top
+alexand+    9251 14.3  1.4 1213724456 236732 ?   Sl   23:22   0:03 /opt/google/chrome/chrome --type
+alexand+    9267  0.0  0.0   8396  2176 pts/0    S+   23:22   0:00 script ps-log.txt
+alexand+    9268  0.0  0.0  11288  5376 pts/1    Ss   23:22   0:00 bash -i
+alexand+    9285  0.0  0.0  12944  3840 pts/1    R+   23:23   0:00 ps -aux
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ ps -aux[K[K[K[K-u@!#$[K[K[K[K[K[K-u%[K$alexander
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+alexand+    1503  0.0  0.0 162396  6016 tty2     Ssl+ 22:55   0:00 /usr/libexec/gdm-wayland-session
+alexand+    1506  0.0  0.0 223052 15744 tty2     Sl+  22:55   0:00 /usr/libexec/gnome-session-binar
+alexand+    6544  0.0  0.0  11960  5760 pts/0    Ss   23:01   0:00 bash
+alexand+    9201  0.0  0.0  12560  3584 pts/0    T    23:21   0:00 top
+alexand+    9267  0.0  0.0   8396  2176 pts/0    S+   23:22   0:00 script ps-log.txt
+alexand+    9268  0.0  0.0  11288  5376 pts/1    Ss   23:22   0:00 bash -i
+alexand+    9329  0.0  0.0  12680  3328 pts/1    R+   23:23   0:00 ps -u
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ top ^[K&
+[?2004l[1] 9351
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [?1l>kill 9351
+[?2004l
+[1]+  Stopped                 top
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo apt install -y openjdk-11-jdk[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install -y openjdk-11-jdk
+[?2004l[sudo] password for alexander: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common libatk-wrapper-java libatk-wrapper-java-jni
+  libice-dev libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev libxcb1-dev libxdmcp-dev
+  libxt-dev openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+Suggested packages:
+  default-jre libice-doc libsm-doc libx11-doc libxcb-doc libxt-doc openjdk-11-demo
+  openjdk-11-source visualvm fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei
+The following NEW packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common libatk-wrapper-java libatk-wrapper-java-jni
+  libice-dev libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev libxcb1-dev libxdmcp-dev
+  libxt-dev openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless
+  x11proto-dev xorg-sgml-doctools xtrans-dev
+0 upgraded, 20 newly installed, 0 to remove and 0 not upgraded.
+Need to get 122 MB of archives.
+After this operation, 275 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 java-common all 0.72build2 [6 782 B]
+[33m0% [1 java-common 2 511 B/6 782 B 37%][0m[33m                                          1% [Working][0m            Get:2 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openjdk-11-jre-headless amd64 11.0.24+8-1ubuntu3~22.04 [42,5 MB]
+[33m1% [2 openjdk-11-jre-headless 1 104 B/42,5 MB 0%][0m[33m                                                   9% [2 openjdk-11-jre-headless 12,3 MB/42,5 MB 29%][0m[33m26% [2 openjdk-11-jre-headless 37,6 MB/42,5 MB 88%][0m[33m29% [2 openjdk-11-jre-headless 42,5 MB/42,5 MB 100%][0m[33m                                                    30% [Waiting for headers][0m                         Get:3 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates-java all 20190909ubuntu1.2 [12,1 kB]
+[33m30% [3 ca-certificates-java 12,1 kB/12,1 kB 100%][0m[33m                                                 31% [Working][0m             Get:4 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-extra all 2.37-2build1 [2 041 kB]
+[33m31% [4 fonts-dejavu-extra 24,6 kB/2 041 kB 1%][0m[33m                                                33% [Working][0m             Get:5 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libatk-wrapper-java all 0.38.0-5build1 [53,1 kB]
+[33m33% [5 libatk-wrapper-java 44,2 kB/53,1 kB 83%][0m[33m                                               34% [Working][0m             Get:6 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libatk-wrapper-java-jni amd64 0.38.0-5build1 [49,0 kB]
+[33m34% [6 libatk-wrapper-java-jni 41,0 kB/49,0 kB 84%][0m[33m                                                   35% [Working][0m             Get:7 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 xorg-sgml-doctools all 1:1.11-1.1 [10,9 kB]
+[33m35% [7 xorg-sgml-doctools 10,9 kB/10,9 kB 100%][0m[33m                                               36% [Working][0m             Get:8 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 x11proto-dev all 2021.5-1 [604 kB]
+[33m36% [8 x11proto-dev 61,3 kB/604 kB 10%][0m[33m                                       38% [Waiting for headers][0m                         Get:9 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libice-dev amd64 2:1.0.10-1build2 [51,4 kB]
+[33m38% [9 libice-dev 46,4 kB/51,4 kB 90%][0m[33m                                      39% [Working][0m             Get:10 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libpthread-stubs0-dev amd64 0.4-1build2 [5 516 B]
+[33m39% [10 libpthread-stubs0-dev 5 516 B/5 516 B 100%][0m[33m                                                       40% [Working][0m             Get:11 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libsm-dev amd64 2:1.2.3-1build2 [18,1 kB]
+[33m40% [11 libsm-dev 18,1 kB/18,1 kB 100%][0m[33m                                       41% [Working][0m             Get:12 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libxau-dev amd64 1:1.0.9-1build5 [9 724 B]
+[33m41% [12 libxau-dev 1 111 B/9 724 B 11%][0m[33m                                           42% [Waiting for headers][0m                         Get:13 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libxdmcp-dev amd64 1:1.1.3-0ubuntu5 [26,5 kB]
+[33m42% [13 libxdmcp-dev 1 110 B/26,5 kB 4%][0m[33m                                          43% [Waiting for headers][0m                         Get:14 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 xtrans-dev all 1.4.0-1 [68,9 kB]
+[33m43% [14 xtrans-dev 19,3 kB/68,9 kB 28%][0m[33m                                       44% [Waiting for headers][0m                         Get:15 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libxcb1-dev amd64 1.14-3ubuntu3 [86,5 kB]
+[33m44% [15 libxcb1-dev 16,5 kB/86,5 kB 19%][0m[33m                                        45% [Waiting for headers][0m                         Get:16 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-dev amd64 2:1.7.5-1ubuntu0.3 [744 kB]
+[33m45% [16 libx11-dev 22,1 kB/744 kB 3%][0m[33m                                     46% [Waiting for headers][0m                         Get:17 http://sh.archive.ubuntu.com/ubuntu jammy/main amd64 libxt-dev amd64 1:1.2.1-1 [396 kB]
+[33m46% [17 libxt-dev 13,8 kB/396 kB 3%][0m[33m                                    48% [Working][0m             Get:18 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openjdk-11-jre amd64 11.0.24+8-1ubuntu3~22.04 [214 kB]
+[33m48% [18 openjdk-11-jre 13,1 kB/214 kB 6%][0m[33m                                         49% [Working][0m             Get:19 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.24+8-1ubuntu3~22.04 [73,5 MB]
+[33m49% [19 openjdk-11-jdk-headless 18,2 kB/73,5 MB 0%][0m[33m65% [19 openjdk-11-jdk-headless 25,2 MB/73,5 MB 34%][0m[33m82% [19 openjdk-11-jdk-headless 50,0 MB/73,5 MB 68%][0m[33m97% [19 openjdk-11-jdk-headless 73,5 MB/73,5 MB 100%][0m[33m97% [19 openjdk-11-jdk-headless 73,5 MB/73,5 MB 100%][0m[33m                                                     98% [Waiting for headers][0m                         Get:20 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openjdk-11-jdk amd64 11.0.24+8-1ubuntu3~22.04 [1 336 kB]
+[33m98% [20 openjdk-11-jdk 50,3 kB/1 336 kB 4%][0m[33m                                             100% [Working][0m              Fetched 122 MB in 4s (28,5 MB/s)
+
+7[0;54r8[1ASelecting previously unselected package java-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 217628 files and directories currently installed.)
+Preparing to unpack .../00-java-common_0.72build2_all.deb ...
+7[55;0f[42m[30mProgress: [  0%][49m[39m [.............................................................................] 87[55;0f[42m[30mProgress: [  1%][49m[39m [.............................................................................] 8Unpacking java-common (0.72build2) ...
+7[55;0f[42m[30mProgress: [  2%][49m[39m [#............................................................................] 8Selecting previously unselected package openjdk-11-jre-headless:amd64.
+Preparing to unpack .../01-openjdk-11-jre-headless_11.0.24+8-1ubuntu3~22.04_amd64.deb ...
+7[55;0f[42m[30mProgress: [  4%][49m[39m [##...........................................................................] 8Unpacking openjdk-11-jre-headless:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [  5%][49m[39m [###..........................................................................] 8Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../02-ca-certificates-java_20190909ubuntu1.2_all.deb ...
+7[55;0f[42m[30mProgress: [  6%][49m[39m [####.........................................................................] 8Unpacking ca-certificates-java (20190909ubuntu1.2) ...
+7[55;0f[42m[30mProgress: [  7%][49m[39m [#####........................................................................] 8Selecting previously unselected package fonts-dejavu-extra.
+Preparing to unpack .../03-fonts-dejavu-extra_2.37-2build1_all.deb ...
+7[55;0f[42m[30mProgress: [  9%][49m[39m [######.......................................................................] 8Unpacking fonts-dejavu-extra (2.37-2build1) ...
+7[55;0f[42m[30mProgress: [ 10%][49m[39m [#######......................................................................] 8Selecting previously unselected package libatk-wrapper-java.
+Preparing to unpack .../04-libatk-wrapper-java_0.38.0-5build1_all.deb ...
+7[55;0f[42m[30mProgress: [ 11%][49m[39m [########.....................................................................] 8Unpacking libatk-wrapper-java (0.38.0-5build1) ...
+7[55;0f[42m[30mProgress: [ 12%][49m[39m [#########....................................................................] 8Selecting previously unselected package libatk-wrapper-java-jni:amd64.
+Preparing to unpack .../05-libatk-wrapper-java-jni_0.38.0-5build1_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 14%][49m[39m [##########...................................................................] 8Unpacking libatk-wrapper-java-jni:amd64 (0.38.0-5build1) ...
+7[55;0f[42m[30mProgress: [ 15%][49m[39m [###########..................................................................] 8Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../06-xorg-sgml-doctools_1%3a1.11-1.1_all.deb ...
+7[55;0f[42m[30mProgress: [ 16%][49m[39m [############.................................................................] 8Unpacking xorg-sgml-doctools (1:1.11-1.1) ...
+7[55;0f[42m[30mProgress: [ 17%][49m[39m [#############................................................................] 8Selecting previously unselected package x11proto-dev.
+Preparing to unpack .../07-x11proto-dev_2021.5-1_all.deb ...
+7[55;0f[42m[30mProgress: [ 19%][49m[39m [##############...............................................................] 8Unpacking x11proto-dev (2021.5-1) ...
+7[55;0f[42m[30mProgress: [ 20%][49m[39m [###############..............................................................] 8Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../08-libice-dev_2%3a1.0.10-1build2_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 21%][49m[39m [################.............................................................] 8Unpacking libice-dev:amd64 (2:1.0.10-1build2) ...
+7[55;0f[42m[30mProgress: [ 22%][49m[39m [#################............................................................] 8Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../09-libpthread-stubs0-dev_0.4-1build2_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 23%][49m[39m [##################...........................................................] 8Unpacking libpthread-stubs0-dev:amd64 (0.4-1build2) ...
+7[55;0f[42m[30mProgress: [ 25%][49m[39m [###################..........................................................] 8Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../10-libsm-dev_2%3a1.2.3-1build2_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 26%][49m[39m [###################..........................................................] 8Unpacking libsm-dev:amd64 (2:1.2.3-1build2) ...
+7[55;0f[42m[30mProgress: [ 27%][49m[39m [####################.........................................................] 8Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../11-libxau-dev_1%3a1.0.9-1build5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 28%][49m[39m [#####################........................................................] 8Unpacking libxau-dev:amd64 (1:1.0.9-1build5) ...
+7[55;0f[42m[30mProgress: [ 30%][49m[39m [######################.......................................................] 8Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../12-libxdmcp-dev_1%3a1.1.3-0ubuntu5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 31%][49m[39m [#######################......................................................] 8Unpacking libxdmcp-dev:amd64 (1:1.1.3-0ubuntu5) ...
+7[55;0f[42m[30mProgress: [ 32%][49m[39m [########################.....................................................] 8Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../13-xtrans-dev_1.4.0-1_all.deb ...
+7[55;0f[42m[30mProgress: [ 33%][49m[39m [#########################....................................................] 8Unpacking xtrans-dev (1.4.0-1) ...
+7[55;0f[42m[30mProgress: [ 35%][49m[39m [##########################...................................................] 8Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../14-libxcb1-dev_1.14-3ubuntu3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 36%][49m[39m [###########################..................................................] 8Unpacking libxcb1-dev:amd64 (1.14-3ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 37%][49m[39m [############################.................................................] 8Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../15-libx11-dev_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 38%][49m[39m [#############################................................................] 8Unpacking libx11-dev:amd64 (2:1.7.5-1ubuntu0.3) ...
+7[55;0f[42m[30mProgress: [ 40%][49m[39m [##############################...............................................] 8Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../16-libxt-dev_1%3a1.2.1-1_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 41%][49m[39m [###############################..............................................] 8Unpacking libxt-dev:amd64 (1:1.2.1-1) ...
+7[55;0f[42m[30mProgress: [ 42%][49m[39m [################################.............................................] 8Selecting previously unselected package openjdk-11-jre:amd64.
+Preparing to unpack .../17-openjdk-11-jre_11.0.24+8-1ubuntu3~22.04_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 43%][49m[39m [#################################............................................] 8Unpacking openjdk-11-jre:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 44%][49m[39m [##################################...........................................] 8Selecting previously unselected package openjdk-11-jdk-headless:amd64.
+Preparing to unpack .../18-openjdk-11-jdk-headless_11.0.24+8-1ubuntu3~22.04_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 46%][49m[39m [###################################..........................................] 8Unpacking openjdk-11-jdk-headless:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 47%][49m[39m [####################################.........................................] 8Selecting previously unselected package openjdk-11-jdk:amd64.
+Preparing to unpack .../19-openjdk-11-jdk_11.0.24+8-1ubuntu3~22.04_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 48%][49m[39m [#####################################........................................] 8Unpacking openjdk-11-jdk:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 49%][49m[39m [######################################.......................................] 8Setting up java-common (0.72build2) ...
+7[55;0f[42m[30mProgress: [ 51%][49m[39m [######################################.......................................] 87[55;0f[42m[30mProgress: [ 52%][49m[39m [#######################################......................................] 8Setting up libpthread-stubs0-dev:amd64 (0.4-1build2) ...
+7[55;0f[42m[30mProgress: [ 53%][49m[39m [########################################.....................................] 87[55;0f[42m[30mProgress: [ 54%][49m[39m [#########################################....................................] 8Setting up xtrans-dev (1.4.0-1) ...
+7[55;0f[42m[30mProgress: [ 56%][49m[39m [##########################################...................................] 87[55;0f[42m[30mProgress: [ 57%][49m[39m [###########################################..................................] 8Setting up fonts-dejavu-extra (2.37-2build1) ...
+7[55;0f[42m[30mProgress: [ 58%][49m[39m [############################################.................................] 87[55;0f[42m[30mProgress: [ 59%][49m[39m [#############################################................................] 8Setting up xorg-sgml-doctools (1:1.11-1.1) ...
+7[55;0f[42m[30mProgress: [ 60%][49m[39m [##############################################...............................] 8Setting up libatk-wrapper-java (0.38.0-5build1) ...
+7[55;0f[42m[30mProgress: [ 62%][49m[39m [###############################################..............................] 87[55;0f[42m[30mProgress: [ 63%][49m[39m [################################################.............................] 8Setting up libatk-wrapper-java-jni:amd64 (0.38.0-5build1) ...
+7[55;0f[42m[30mProgress: [ 64%][49m[39m [#################################################............................] 87[55;0f[42m[30mProgress: [ 65%][49m[39m [##################################################...........................] 8Setting up openjdk-11-jre-headless:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 67%][49m[39m [###################################################..........................] 8update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+7[55;0f[42m[30mProgress: [ 68%][49m[39m [####################################################.........................] 8Setting up openjdk-11-jre:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 69%][49m[39m [#####################################################........................] 87[55;0f[42m[30mProgress: [ 70%][49m[39m [######################################################.......................] 8Setting up openjdk-11-jdk-headless:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 72%][49m[39m [#######################################################......................] 8update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jaotc to provide /usr/bin/jaotc (jaotc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+7[55;0f[42m[30mProgress: [ 73%][49m[39m [########################################################.....................] 8Setting up openjdk-11-jdk:amd64 (11.0.24+8-1ubuntu3~22.04) ...
+7[55;0f[42m[30mProgress: [ 74%][49m[39m [#########################################################....................] 8update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+7[55;0f[42m[30mProgress: [ 75%][49m[39m [#########################################################....................] 8Setting up ca-certificates-java (20190909ubuntu1.2) ...
+7[55;0f[42m[30mProgress: [ 77%][49m[39m [##########################################################...................] 8head: cannot open '/etc/ssl/certs/java/cacerts' for reading: No such file or directory
+Adding debian:D-TRUST_BR_Root_CA_1_2020.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_R46.pem
+Adding debian:Certigna.pem
+Adding debian:CommScope_Public_Trust_RSA_Root-01.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:SSL.com_TLS_RSA_Root_CA_2022.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:emSign_ECC_Root_CA_-_G3.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:GLOBALTRUST_2020.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:Atos_TrustedRoot_Root_CA_ECC_TLS_2021.pem
+Adding debian:Certum_Trusted_Root_CA.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:BJCA_Global_Root_CA2.pem
+Adding debian:HiPKI_Root_CA_-_G1.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:Atos_TrustedRoot_Root_CA_RSA_TLS_2021.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:HARICA_TLS_RSA_Root_CA_2021.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:ISRG_Root_X2.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:Certainly_Root_E1.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:TunTrust_Root_CA.pem
+Adding debian:SSL.com_TLS_ECC_Root_CA_2022.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:Trustwave_Global_ECC_P384_Certification_Authority.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:TrustAsia_Global_Root_CA_G4.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:Izenpe.com.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:Trustwave_Global_Certification_Authority.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:Certainly_Root_R1.pem
+Adding debian:GlobalSign_Root_R46.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:Security_Communication_RootCA3.pem
+Adding debian:HARICA_TLS_ECC_Root_CA_2021.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:DigiCert_TLS_RSA4096_Root_G5.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:CommScope_Public_Trust_ECC_Root-01.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:Certum_EC-384_CA.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:D-TRUST_EV_Root_CA_1_2020.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:CommScope_Public_Trust_ECC_Root-02.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_E46.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:GTS_Root_R2.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G4.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:ANF_Secure_Server_Root_CA.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:Trustwave_Global_ECC_P256_Certification_Authority.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:BJCA_Global_Root_CA1.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:Telia_Root_CA_v2.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:CommScope_Public_Trust_RSA_Root-02.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:GlobalSign_Root_E46.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:DigiCert_TLS_ECC_P384_Root_G5.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:vTrus_ECC_Root_CA.pem
+Adding debian:TrustAsia_Global_Root_CA_G3.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:vTrus_Root_CA.pem
+Adding debian:Security_Communication_ECC_RootCA1.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+done.
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for fontconfig (2.13.1-4.2ubuntu5) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for ca-certificates (20240203~22.04.1) ...
+7[55;0f[42m[30mProgress: [ 78%][49m[39m [###########################################################..................] 8Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+Processing triggers for sgml-base (1.30) ...
+7[55;0f[42m[30mProgress: [ 79%][49m[39m [############################################################.................] 8Setting up x11proto-dev (2021.5-1) ...
+7[55;0f[42m[30mProgress: [ 80%][49m[39m [#############################################################................] 87[55;0f[42m[30mProgress: [ 81%][49m[39m [##############################################################...............] 8Setting up libxau-dev:amd64 (1:1.0.9-1build5) ...
+7[55;0f[42m[30mProgress: [ 83%][49m[39m [###############################################################..............] 87[55;0f[42m[30mProgress: [ 84%][49m[39m [################################################################.............] 8Setting up libice-dev:amd64 (2:1.0.10-1build2) ...
+7[55;0f[42m[30mProgress: [ 85%][49m[39m [#################################################################............] 87[55;0f[42m[30mProgress: [ 86%][49m[39m [##################################################################...........] 8Setting up libsm-dev:amd64 (2:1.2.3-1build2) ...
+7[55;0f[42m[30mProgress: [ 88%][49m[39m [###################################################################..........] 87[55;0f[42m[30mProgress: [ 89%][49m[39m [####################################################################.........] 8Setting up libxdmcp-dev:amd64 (1:1.1.3-0ubuntu5) ...
+7[55;0f[42m[30mProgress: [ 90%][49m[39m [#####################################################################........] 87[55;0f[42m[30mProgress: [ 91%][49m[39m [######################################################################.......] 8Setting up libxcb1-dev:amd64 (1.14-3ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################################......] 87[55;0f[42m[30mProgress: [ 94%][49m[39m [########################################################################.....] 8Setting up libx11-dev:amd64 (2:1.7.5-1ubuntu0.3) ...
+7[55;0f[42m[30mProgress: [ 95%][49m[39m [#########################################################################....] 87[55;0f[42m[30mProgress: [ 96%][49m[39m [##########################################################################...] 8Setting up libxt-dev:amd64 (1:1.2.1-1) ...
+7[55;0f[42m[30mProgress: [ 98%][49m[39m [###########################################################################..] 87[55;0f[42m[30mProgress: [ 99%][49m[39m [############################################################################.] 8
+7[0;55r8[1A[J[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mwget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+[?2004l--2024-11-08 23:25:59--  https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+Resolving download.oracle.com (download.oracle.com)... 23.14.136.105
+Connecting to download.oracle.com (download.oracle.com)|23.14.136.105|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2024-11-08 23:26:01 ERROR 404: Not Found.
+
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ pwr[Kd
+[?2004l/home/alexander
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDesktop[0m     [01;34mMusic[0m           [01;32mmy_script.sh[0m   [01;34mPublic[0m            [01;34mTemplates[0m   [01;34mЗагрузки[0m
+ [01;34mDocuments[0m   [01;32mmy_script2.sh[0m   [01;34mPictures[0m       [01;34mPycharmProjects[0m   text.txt   [01;34m'Рабочий стол'[0m
+ [01;34mDownloads[0m   [01;32mmy_script3.sh[0m   ps-log.txt     [01;34msnap[0m              [01;34mVideos[0m
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mDesktop[0m     [01;34mjre-8u431-linux-i586[0m   [01;32mmy_script3.sh[0m   ps-log.txt        [01;34msnap[0m        [01;34mVideos[0m
+ [01;34mDocuments[0m   [01;34mMusic[0m                  [01;32mmy_script.sh[0m    [01;34mPublic[0m            [01;34mTemplates[0m   [01;34mЗагрузки[0m
+ [01;34mDownloads[0m   [01;32mmy_script2.sh[0m          [01;34mPictures[0m        [01;34mPycharmProjects[0m   text.txt   [01;34m'Рабочий стол'[0m[K
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-o[27m[7mp[27m[7menjdk-amd64/bin/java 1[27m[Asudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-openjdk-amd64/bin/java 1
+[?2004l[sudo] password for alexander: 
+update-alternatives: warning: forcing reinstallation of alternative /usr/lib/jvm/java-11-openjdk-amd64/bin/java because link group java is broken
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version 
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-o[27m[7mp[27m[7menjdk-amd64/bin/java 1 [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-openjdk-amd64/bin/java 1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --install /usr/bin/java java /opt/jdk-17/bin/java 2[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --install /usr/bin/java java /opt/jdk-17/bin/java 2 [A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[7mhome/alexander/jre-8u[27m[7m4[27m[7m31-linux-i586/jre1.8.0_431/bin[27m/bin/java 2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chome/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin[C[C[C[C[C[1P[1P[1P[1P[C[C[C[C[C[C
+[?2004lupdate-alternatives: using /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java to provide /usr/bin/java (java) in auto mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --install /usr/bin/java java /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusr/lib/jvm/java-11-op[15Penjdk-amd64/bin/java 1[Ajava -version [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --config java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+* 0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: *
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+* 0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+* 1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 0
+update-alternatives: using /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java to provide /usr/bin/java (java) in auto mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ clejava -version cle[Kar
+[?2004l[H[2J[3J[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ clearjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version sudo update-alternatives --install /usr/bin/java java /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusr/lib/jvm/java-11-op[15Penjdk-amd64/bin/java 1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chome/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --install /usr/bin/java java /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2[Aclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                                        Priority   Status
+------------------------------------------------------------
+* 0            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         auto mode
+  1            /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java   2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java                  1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config javainstall /usr/bin/java java /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2[Aclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version 
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config javainstall /usr/bin/java java /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java 2[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cja[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjav[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava[1P 2[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava [1P2[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava 2[K[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cava 2 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[7m/home/alexander/Java8/[27m[7mb[27m[7min[27mjava 2[C[C[C[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/alexander/Java8/bin[C[1@/[C[C[C[C[C[C
+[?2004lupdate-alternatives: warning: alternative /home/alexander/jre-8u431-linux-i586/jre1.8.0_431/bin/java (part of link group java) doesn't exist; removing from list of alternatives
+update-alternatives: warning: /etc/alternatives/java is dangling; it will be updated with best choice
+update-alternatives: using /home/alexander/Java8/bin/java to provide /usr/bin/java (java) in auto mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --install /usr/bin/java java /home/alexander/Java8/bin/java 2[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+* 0            /home/alexander/Java8/bin/java                2         auto mode
+  1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config javainstall /usr/bin/java java /home/alexander/Java8/bin/java 2[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --remove-all java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --remove-all java
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --remove-all java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pjava -version sudo update-alternatives --config java
+[?2004lupdate-alternatives: error: no alternatives for java
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ ^[[200~sudo update-alternatives --install /usr/bin/java java /home/alexander/Java8/bin/java 2~[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/J[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/Ja[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/Jav[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/Java[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/Java8[1P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[Csudo update-alternatives --install /usr/bin/java java /home/alexander/Java8/b[2P[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ 
+
+[?2004lupdate-alternatives: using /home/alexander/Java8/bin/java to provide /usr/bin/java (java) in auto mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-o[27m[7mp[27m[7menjdk-amd64/bin/java 1[27m[Asudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-openjdk-amd64/bin/java 1[C
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo update-alternatives --config java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+* 0            /home/alexander/Java8/bin/java                2         auto mode
+  1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config javainstall /usr/bin/java java /usr/lib/jvm/java-11-openjdk-amd64/bin/java 1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chome/alexander/Java8/b[13Pin/java 2[A]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig java[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@remove-all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pjava -version sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+* 1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pjava -version 
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo rm -f /usr/bin/java[27msudo rm -f /usr/bin/java
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo ln -s /home/alexander/Java8/bin/java /usr/bin/java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mjava -version[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version
+[A
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -versionsudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Prm -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pjava -version 
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version [Ksudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Prm -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pjava -version sudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+  1            /home/alexander/Java8/bin/java                2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /home/alexander/Java8/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mls -l /home/alexander/Java8/bin/java[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /home/alexander/Java8/bin/java
+[A
+[?2004l-rwxr-xr-x 1 alexander alexander 6952 сен 30 12:15 [0m[01;32m/home/alexander/Java8/bin/java[0m
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo chmod +x /home/alexander/Java8/bin/java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod +x /home/alexander/Java8/bin/java
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mls -ld /home/alexander /home/alexander/Java8 /home/alexander/Java8/bin[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld /home/alexander /home/alexander/Java8 /home/alexander/Java8/bin
+[A
+[?2004ldrwxr-x--- 23 alexander alexander 4096 ноя  9 00:24 [0m[01;34m/home/alexander[0m
+drwxrwxr-x  7 alexander alexander 4096 ноя  8 23:50 [01;34m/home/alexander/Java8[0m
+drwxrwxr-x  2 alexander alexander 4096 ноя  8 23:50 [01;34m/home/alexander/Java8/bin[0m
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo rm -f /usr/bin/java[27msudo rm -f /usr/bin/java
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo ln -s /home/alexander/Java8/bin/java /usr/bin/java
+[?2004l[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mjava -version[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version
+[A
+[?2004lbash: /usr/bin/java: No such file or directory
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mldd /home/alexander/Java8/bin/java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cldd /home/alexander/Java8/bin/java
+[?2004l	not a dynamic executable
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7muname -m[27muname -m
+[?2004lx86_64
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ uname -mldd /home/alexander/Java8/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pjava -version
+[?2004ljava version "1.8.0_431"
+Java(TM) SE Runtime Environment (build 1.8.0_431-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.431-b10, mixed mode)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -version[5Puname -mldd /home/alexander/Java8/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pjava -versionsudo ln -s /home/alexander/Java8/bin/java /usr/bin/java
+[?2004lln: failed to create symbolic link '/usr/bin/java': File exists
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version[K[5Puname -mldd /home/alexander/Java8/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pjava -versionsudo ln -s /home/alexander/Java8/bin/java /usr/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Prm -f[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld /home/alexander /home/alexander/Java8 /home/alexander/Java8/bin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psudo chmod +x /home/alexander/Java8/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+* 1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cln -s /home/alexander/Java8/bin/java /usr/bin/java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -version[K
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ java -versionsudo update-alternatives --config java
+[?2004lThere are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+  1            /home/alexander/Java8/bin/java                2         manual mode
+* 2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /home/alexander/Java8/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pjava -version
+[?2004ljava version "1.8.0_431"
+Java(TM) SE Runtime Environment (build 1.8.0_431-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.431-b10, mixed mode)
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7mscript java-log.txt[27mscript java-log.txt
+[?2004lScript started, output log file is 'java-log.txt'.
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ exittimedatectl list-timezones [9Psudo hostname alextimedatectl list-timezones exit[K[Kjava -version
+[?2004ljava version "1.8.0_431"
+Java(TM) SE Runtime Environment (build 1.8.0_431-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.431-b10, mixed mode)
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ [7msudo update-alternatives --config java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004l[sudo] password for alexander: 
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+* 1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pjava -version
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo apt install -y nginx[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install -y nginx
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libnginx-mod-http-geoip2 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2 nginx-common nginx-core
+Suggested packages:
+  fcgiwrap nginx-doc
+The following NEW packages will be installed:
+  libnginx-mod-http-geoip2 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2 nginx nginx-common nginx-core
+0 upgraded, 9 newly installed, 0 to remove and 0 not upgraded.
+Need to get 697 kB of archives.
+After this operation, 2 395 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-common all 1.18.0-6ubuntu14.5 [40,1 kB]
+[33m0% [1 nginx-common 2 510 B/40,1 kB 6%][0m[33m                                        7% [Working][0m            Get:2 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-geoip2 amd64 1.18.0-6ubuntu14.5 [12,0 kB]
+[33m7% [2 libnginx-mod-http-geoip2 2 510 B/12,0 kB 21%][0m[33m                                                     10% [Waiting for headers][0m                         Get:3 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-6ubuntu14.5 [15,5 kB]
+[33m11% [3 libnginx-mod-http-image-filter 1 438 B/15,5 kB 9%][0m[33m                                                           14% [Waiting for headers][0m                         Get:4 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-6ubuntu14.5 [13,8 kB]
+[33m15% [4 libnginx-mod-http-xslt-filter 1 050 B/13,8 kB 8%][0m[33m                                                          18% [Waiting for headers][0m                         Get:5 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-mail amd64 1.18.0-6ubuntu14.5 [45,8 kB]
+[33m18% [5 libnginx-mod-mail 950 B/45,8 kB 2%][0m[33m                                          26% [Waiting for headers][0m                         Get:6 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream amd64 1.18.0-6ubuntu14.5 [72,8 kB]
+[33m26% [6 libnginx-mod-stream 1 091 B/72,8 kB 1%][0m[33m                                                36% [Waiting for headers][0m                         Get:7 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream-geoip2 amd64 1.18.0-6ubuntu14.5 [10,1 kB]
+[33m36% [7 libnginx-mod-stream-geoip2 759 B/10,1 kB 7%][0m[33m                                                   40% [Waiting for headers][0m                         Get:8 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-core amd64 1.18.0-6ubuntu14.5 [483 kB]
+[33m40% [8 nginx-core 1 533 B/483 kB 0%][0m[33m                                      97% [Waiting for headers][0m                         Get:9 http://sh.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx amd64 1.18.0-6ubuntu14.5 [3 882 B]
+[33m                         100% [Working][0m              Fetched 697 kB in 0s (1 508 kB/s)
+Preconfiguring packages ...
+
+7[0;54r8[1ASelecting previously unselected package nginx-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 218815 files and directories currently installed.)
+Preparing to unpack .../0-nginx-common_1.18.0-6ubuntu14.5_all.deb ...
+7[55;0f[42m[30mProgress: [  0%][49m[39m [.............................................................................] 87[55;0f[42m[30mProgress: [  3%][49m[39m [##...........................................................................] 8Unpacking nginx-common (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [  5%][49m[39m [####.........................................................................] 8Selecting previously unselected package libnginx-mod-http-geoip2.
+Preparing to unpack .../1-libnginx-mod-http-geoip2_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [  8%][49m[39m [######.......................................................................] 8Unpacking libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 11%][49m[39m [########.....................................................................] 8Selecting previously unselected package libnginx-mod-http-image-filter.
+Preparing to unpack .../2-libnginx-mod-http-image-filter_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 14%][49m[39m [##########...................................................................] 8Unpacking libnginx-mod-http-image-filter (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 16%][49m[39m [############.................................................................] 8Selecting previously unselected package libnginx-mod-http-xslt-filter.
+Preparing to unpack .../3-libnginx-mod-http-xslt-filter_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 19%][49m[39m [##############...............................................................] 8Unpacking libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 22%][49m[39m [################.............................................................] 8Selecting previously unselected package libnginx-mod-mail.
+Preparing to unpack .../4-libnginx-mod-mail_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 24%][49m[39m [##################...........................................................] 8Unpacking libnginx-mod-mail (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 27%][49m[39m [####################.........................................................] 8Selecting previously unselected package libnginx-mod-stream.
+Preparing to unpack .../5-libnginx-mod-stream_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 30%][49m[39m [######################.......................................................] 8Unpacking libnginx-mod-stream (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 32%][49m[39m [########################.....................................................] 8Selecting previously unselected package libnginx-mod-stream-geoip2.
+Preparing to unpack .../6-libnginx-mod-stream-geoip2_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 35%][49m[39m [###########################..................................................] 8Unpacking libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 38%][49m[39m [#############################................................................] 8Selecting previously unselected package nginx-core.
+Preparing to unpack .../7-nginx-core_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 41%][49m[39m [###############################..............................................] 8Unpacking nginx-core (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 43%][49m[39m [#################################............................................] 8Selecting previously unselected package nginx.
+Preparing to unpack .../8-nginx_1.18.0-6ubuntu14.5_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 46%][49m[39m [###################################..........................................] 8Unpacking nginx (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 49%][49m[39m [#####################################........................................] 8Setting up nginx-common (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 51%][49m[39m [#######################################......................................] 8Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
+7[55;0f[42m[30mProgress: [ 54%][49m[39m [#########################################....................................] 8Setting up libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 57%][49m[39m [###########################################..................................] 87[55;0f[42m[30mProgress: [ 59%][49m[39m [#############################################................................] 8Setting up libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 62%][49m[39m [###############################################..............................] 87[55;0f[42m[30mProgress: [ 65%][49m[39m [#################################################............................] 8Setting up libnginx-mod-mail (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 68%][49m[39m [####################################################.........................] 87[55;0f[42m[30mProgress: [ 70%][49m[39m [######################################################.......................] 8Setting up libnginx-mod-http-image-filter (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 73%][49m[39m [########################################################.....................] 87[55;0f[42m[30mProgress: [ 76%][49m[39m [##########################################################...................] 8Setting up libnginx-mod-stream (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 78%][49m[39m [############################################################.................] 87[55;0f[42m[30mProgress: [ 81%][49m[39m [##############################################################...............] 8Setting up libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 84%][49m[39m [################################################################.............] 87[55;0f[42m[30mProgress: [ 86%][49m[39m [##################################################################...........] 8Setting up nginx-core (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 89%][49m[39m [####################################################################.........] 8 * Upgrading binary nginx       [99G [93G[ OK ]
+7[55;0f[42m[30mProgress: [ 92%][49m[39m [######################################################################.......] 8Setting up nginx (1.18.0-6ubuntu14.5) ...
+7[55;0f[42m[30mProgress: [ 95%][49m[39m [########################################################################.....] 87[55;0f[42m[30mProgress: [ 97%][49m[39m [##########################################################################...] 8Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+
+7[0;55r8[1A[J[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ [7msudo vim /etc/systemd/system/my-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo vim /etc/systemd/system/my-nginx.service
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"/etc/systemd/system/my-nginx.service" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                  [3;1H~                                                                                                  [4;1H~                                                                                                  [5;1H~                                                                                                  [6;1H~                                                                                                  [7;1H~                                                                                                  [8;1H~                                                                                                  [9;1H~                                                                                                  [10;1H~                                                                                                  [11;1H~                                                                                                  [12;1H~                                                                                                  [13;1H~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                                                                                  [46;1H~                                                                                                  [47;1H~                                                                                                  [48;1H~                                                                                                  [49;1H~                                                                                                  [50;1H~                                                                                                  [51;1H~                                                                                                  [52;1H~                                                                                                  [53;1H~                                                                                                  [54;1H~                                                                                                  [m[55;82H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[55;72H0[1;1H[55;73H3[1;1H[55;74H0[1;1H[55;75H/[1;1H[55;76H0[1;1H[55;77Ha[1;1H[55;78H0[1;1H[55;79Ha[1;1H[55;80H/[1;1H[55;81H2[1;1H[55;72H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                  [3;1H~                                                                                                  [4;1H~                                                                                                  [5;1H~                                                                                                  [6;1H~                                                                                                  [7;1H~                                                                                                  [8;1H~                                                                                                  [9;1H~                                                                                                  [10;1H~                                                                                                  [11;1H~                                                                                                  [12;1H~                                                                                                  [13;1H~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                                                                                  [46;1H~                                                                                                  [47;1H~                                                                                                  [48;1H~                                                                                                  [49;1H~                                                                                                  [50;1H~                                                                                                  [51;1H~                                                                                                  [52;1H~                                                                                                  [53;1H~                                                                                                  [54;1H~                                                                                                  [m[55;82H0,0-1[9CAll"/etc/systemd/system/my-nginx.service" [New][1;1H[?25h[?25l[55;72H^[[1;1H[55;72H  [1;1H[55;72H^[[1;1H[55;72H  [1;1H[?25h[?25l[55;72H:[1;1H[55;1H[K[55;1H:[?25h!q[?25l:!q[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+/bin/bash: line 1: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                  [3;1H~                                                                                                  [4;1H~                                                                                                  [5;1H~                                                                                                  [6;1H~                                                                                                  [7;1H~                                                                                                  [8;1H~                                                                                                  [9;1H~                                                                                                  [10;1H~                                                                                                  [11;1H~                                                                                                  [12;1H~                                                                                                  [13;1H~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                                                                                  [46;1H~                                                                                                  [47;1H~                                                                                                  [48;1H~                                                                                                  [49;1H~                                                                                                  [50;1H~                                                                                                  [51;1H~                                                                                                  [52;1H~                                                                                                  [53;1H~                                                                                                  [54;1H~                                                                                                  [m[55;82H0,0-1[9CAll[1;1H[?25h[?25l[55;72H:[1;1H[55;72H[K[55;1H:[?25hwq[?25l[?2004l[>4;m"/etc/systemd/system/my-nginx.service" [New] 0L, 0B written[23;2t[23;1t[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[?2004h]0;alexander@Alexander: ~[01;32malexander@Alexander[00m:[01;34m~[00m$ script nginx-log.txt
+[?2004lScript started, output log file is 'nginx-log.txt'.
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ [7msudo systemctl stop nginx[27msudo systemctl stop nginx
+[?2004l[sudo] password for alexander: 
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ [7msudo systemctl disable nginx[27msudo systemctl disable nginx
+[?2004lSynchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable nginx
+Removed /etc/systemd/system/multi-user.target.wants/nginx.service.
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ [7msudo vim /etc/systemd/system/my-nginx.service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo vim /etc/systemd/system/my-nginx.service
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"/etc/systemd/system/my-nginx.service" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                  [3;1H~                                                                                                  [4;1H~                                                                                                  [5;1H~                                                                                                  [6;1H~                                                                                                  [7;1H~                                                                                                  [8;1H~                                                                                                  [9;1H~                                                                                                  [10;1H~                                                                                                  [11;1H~                                                                                                  [12;1H~                                                                                                  [13;1H~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                                                                                  [46;1H~                                                                                                  [47;1H~                                                                                                  [48;1H~                                                                                                  [49;1H~                                                                                                  [50;1H~                                                                                                  [51;1H~                                                                                                  [52;1H~                                                                                                  [53;1H~                                                                                                  [54;1H~                                                                                                  [m[55;82H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[55;72H:[1;1H[55;73H3[1;1H[55;74H0[1;1H[55;75H3[1;1H[55;76H0[1;1H[55;77H/[1;1H[55;78H0[1;1H[55;79Ha[1;1H[55;80H0[1;1H[55;81Ha[1;1H[55;72H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                  [3;1H~                                                                                                  [4;1H~                                                                                                  [5;1H~                                                                                                  [6;1H~                                                                                                  [7;1H~                                                                                                  [8;1H~                                                                                                  [9;1H~                                                                                                  [10;1H~                                                                                                  [11;1H~                                                                                                  [12;1H~                                                                                                  [13;1H~                                                                                                  [14;1H~                                                                                                  [15;1H~                                                                                                  [16;1H~                                                                                                  [17;1H~                                                                                                  [18;1H~                                                                                                  [19;1H~                                                                                                  [20;1H~                                                                                                  [21;1H~                                                                                                  [22;1H~                                                                                                  [23;1H~                                                                                                  [24;1H~                                                                                                  [25;1H~                                                                                                  [26;1H~                                                                                                  [27;1H~                                                                                                  [28;1H~                                                                                                  [29;1H~                                                                                                  [30;1H~                                                                                                  [31;1H~                                                                                                  [32;1H~                                                                                                  [33;1H~                                                                                                  [34;1H~                                                                                                  [35;1H~                                                                                                  [36;1H~                                                                                                  [37;1H~                                                                                                  [38;1H~                                                                                                  [39;1H~                                                                                                  [40;1H~                                                                                                  [41;1H~                                                                                                  [42;1H~                                                                                                  [43;1H~                                                                                                  [44;1H~                                                                                                  [45;1H~                                        
