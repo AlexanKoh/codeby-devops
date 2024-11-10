@@ -1,0 +1,25 @@
+Script started on 2024-11-09 00:39:15+04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="99" LINES="55"]
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ exittimedatectl list-timezones [9Psudo hostname alextimedatectl list-timezones exit[K[Kjava -version
+[?2004ljava version "1.8.0_431"
+Java(TM) SE Runtime Environment (build 1.8.0_431-b10)
+Java HotSpot(TM) 64-Bit Server VM (build 25.431-b10, mixed mode)
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ [7msudo update-alternatives --config java[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo update-alternatives --config java
+[?2004l[sudo] password for alexander: 
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /home/alexander/Java8/bin/java                2         auto mode
+* 1            /home/alexander/Java8/bin/java                2         manual mode
+  2            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1         manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ sudo update-alternatives --config java[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pjava -version
+[?2004lopenjdk version "11.0.24" 2024-07-16
+OpenJDK Runtime Environment (build 11.0.24+8-post-Ubuntu-1ubuntu322.04)
+OpenJDK 64-Bit Server VM (build 11.0.24+8-post-Ubuntu-1ubuntu322.04, mixed mode, sharing)
+[?2004h]0;alexander@alexander-System: ~[01;32malexander@alexander-System[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-11-09 00:40:15+04:00 [COMMAND_EXIT_CODE="0"]
