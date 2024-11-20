@@ -1,0 +1,70 @@
+Vagrant.configure("2") do |config|
+  # Настройка ВМ для сервера
+  config.vm.define "server" do |server|
+    server.vm.box = "ubuntu/bionic64"
+    server.vm.network "private_network", ip: "192.168.56.101"
+    server.vm.hostname = "server"
+
+    # Подключение к VM через SSH
+    server.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+
+    # Настройка provision
+    server.vm.provision "shell", inline: <<-SHELL
+      # Обновление пакетов на сервере
+      sudo apt-get update -y
+      sudo apt-get upgrade -y
+
+      # Установка Apache и OpenSSL
+      sudo apt-get install -y apache2 openssl
+
+      # Генерация самоподписанного сертификата в папке Vagrant
+      sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /vagrant/mydomen.key -out /vagrant/mydomen.crt -subj "/CN=mydomen.local"
+
+      # Настройка Apache для работы с SSL
+      sudo a2enmod ssl
+      sudo a2ensite default-ssl.conf
+      sudo systemctl restart apache2
+
+      # Перенаправление с HTTP на HTTPS
+      echo "<VirtualHost *:80>" | sudo tee /etc/apache2/sites-available/000-default.conf
+      echo "  Redirect permanent / https://mydomen.local/" | sudo tee -a /etc/apache2/sites-available/000-default.conf
+      echo "</VirtualHost>" | sudo tee -a /etc/apache2/sites-available/000-default.conf
+      sudo systemctl restart apache2
+    SHELL
+  end
+
+  # Настройка ВМ для клиента
+  config.vm.define "client" do |client|
+    client.vm.box = "ubuntu/bionic64"
+    client.vm.network "private_network", ip: "192.168.56.102"
+    client.vm.hostname = "client"
+
+    # Подключение к VM через SSH
+    client.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+
+    # Настройка provision
+    client.vm.provision "shell", inline: <<-SHELL
+      # Обновление пакетов на клиенте
+      sudo apt-get update -y
+      sudo apt-get upgrade -y
+
+      # Установка необходимых пакетов
+      sudo apt-get install -y curl ca-certificates
+
+      # Добавление записи для домена в /etc/hosts
+      echo "192.168.56.101 mydomen.local" | sudo tee -a /etc/hosts
+
+      # Копирование сертификата из общей папки Vagrant
+      sudo cp /vagrant/mydomen.crt /usr/local/share/ca-certificates/mydomen.crt
+      sudo update-ca-certificates
+    SHELL
+
+    # Синхронизация файлов между хостом и клиентом (например, сертификат)
+    client.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+  end
+end
+
