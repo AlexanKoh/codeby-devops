@@ -1,0 +1,25 @@
+---
+- name: Configure environment
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install required packages
+      apt:
+        name:
+          - wget
+          - htop
+          - nginx
+        state: present
+        update_cache: yes
+
+    - name: Start and enable nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Display environment information
+      debug:
+        msg: "This host is in {{ inventory_hostname }} environment"
+
