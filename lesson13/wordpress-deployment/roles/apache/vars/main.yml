@@ -1,0 +1,9 @@
+apache_packages:
+  - "{{ 'apache2' if ansible_facts['os_family'] == 'Debian' else 'httpd' }}"
+apache_service: "{{ 'apache2' if ansible_facts['os_family'] == 'Debian' else 'httpd' }}"
+php_packages:
+  - php
+  - php-mysql
+  - "{{ 'libapache2-mod-php' if ansible_facts['os_family'] == 'Debian' else 'php-fpm' }}"
+apache_vhost_dir: "{{ '/etc/apache2/sites-available' if ansible_facts['os_family'] == 'Debian' else '/etc/httpd/conf.d' }}"
+apache_enable_command: "{{ 'a2ensite wordpress.conf && systemctl reload apache2' if ansible_facts['os_family'] == 'Debian' else None }}"

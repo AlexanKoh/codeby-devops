@@ -1,0 +1,26 @@
+- name: Install MySQL server
+  ansible.builtin.package:
+    name: "{{ mysql_packages }}"
+    state: present
+
+- name: Ensure MySQL service is running
+  ansible.builtin.service:
+    name: "{{ mysql_service }}"
+    state: started
+    enabled: true
+
+- name: Create WordPress database
+  ansible.builtin.mysql_db:
+    name: "{{ wordpress_db }}"
+    state: present
+    login_user: "{{ mysql_root_user }}"
+    login_password: "{{ mysql_root_password }}"
+
+- name: Create WordPress user
+  ansible.builtin.mysql_user:
+    name: "{{ wordpress_user }}"
+    password: "{{ wordpress_password }}"
+    priv: "{{ wordpress_db }}.*:ALL"
+    state: present
+    login_user: "{{ mysql_root_user }}"
+    login_password: "{{ mysql_root_password }}"
