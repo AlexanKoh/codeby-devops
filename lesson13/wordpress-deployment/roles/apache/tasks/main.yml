@@ -1,0 +1,30 @@
+- name: Install Apache
+  ansible.builtin.package:
+    name: "{{ apache_packages }}"
+    state: present
+
+- name: Ensure Apache service is running
+  ansible.builtin.service:
+    name: "{{ apache_service }}"
+    state: started
+    enabled: true
+
+- name: Install PHP and required extensions
+  ansible.builtin.package:
+    name: "{{ php_packages }}"
+    state: present
+
+- name: Deploy WordPress configuration
+  ansible.builtin.template:
+    src: wordpress.conf.j2
+    dest: "{{ apache_vhost_dir }}/wordpress.conf"
+
+- name: Enable WordPress site
+  ansible.builtin.command:
+    cmd: "{{ apache_enable_command }}"
+  when: apache_enable_command is defined
+
+- name: Reload Apache
+  ansible.builtin.service:
+    name: "{{ apache_service }}"
+    state: reloaded
