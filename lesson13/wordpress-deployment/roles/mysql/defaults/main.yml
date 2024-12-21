@@ -1,0 +1,13 @@
+# MySQL root user credentials
+mysql_root_user: root
+mysql_root_password: changeme
+
+# Database configuration for WordPress
+wordpress_db: wordpress
+wordpress_user: wp_user
+wordpress_password: wp_password
+
+# Default MySQL packages and service names
+mysql_packages:
+  - "{{ 'mysql-server' if ansible_facts['os_family'] == 'Debian' else 'mariadb-server' }}"
+mysql_service: "{{ 'mysql' if ansible_facts['os_family'] == 'Debian' else 'mariadb' }}"
