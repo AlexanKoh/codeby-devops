@@ -1,0 +1,52 @@
+mysql:
+  image: mysql:5.7
+  rootPassword: "rootpassword"
+  databaseName: wordpress
+  persistentVolume:
+    enabled: true
+    size: 8Gi
+    storageClass: standard
+  resources:
+    requests:
+      memory: "1Gi"   # Минимальное количество памяти, которое контейнер будет использовать
+      cpu: "500m"       # Минимальное количество CPU, которое контейнер будет использовать
+    limits:
+      memory: "2Gi"     # Максимальное количество памяти, которое контейнер может использовать
+      cpu: "2"          # Максимальное количество CPU, которое контейнер может использовать
+
+wordpress:
+  image: wordpress:latest
+  replicaCount: 2
+  service:
+    type: ClusterIP
+    port: 80
+  persistentVolume:
+    enabled: true
+    size: 8Gi
+    storageClass: standard
+  ingress:
+    enabled: true
+    host: wordpress.local
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /
+  hpa:
+    enabled: true
+    minReplicas: 2
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 80
+  resources:
+    requests:
+      memory: "512Mi"   # Минимальное количество памяти, которое контейнер будет использовать
+      cpu: "500m"       # Минимальное количество CPU, которое контейнер будет использовать
+    limits:
+      memory: "1Gi"     # Максимальное количество памяти, которое контейнер может использовать
+      cpu: "1"          # Максимальное количество CPU, которое контейнер может использовать
+
+networkPolicy:
+  enabled: true
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: wordpress
+
