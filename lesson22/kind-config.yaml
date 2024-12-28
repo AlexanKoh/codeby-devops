@@ -4,4 +4,3 @@ name: wordpress-cluster
 nodes:
   - role: control-plane
   - role: worker
-
