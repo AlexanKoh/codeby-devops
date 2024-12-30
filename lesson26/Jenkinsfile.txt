@@ -7,6 +7,14 @@ pipeline {
                     steps {
                         dir('Hello Devops!') {
                             script {
+                                // Проверка текущей директории
+                                echo "Current directory for Hello Devops!:"
+                                sh 'pwd'  // Выводит текущую директорию
+
+                                // Проверка наличия pom.xml
+                                echo "Checking for pom.xml in Hello Devops!:"
+                                sh 'ls -l pom.xml'  // Выводит файл pom.xml, если он есть
+
                                 // Сборка и тестирование для Hello Devops!
                                 echo "Building and testing Hello Devops!"
                                 sh 'mvn clean install'
@@ -19,6 +27,14 @@ pipeline {
                     steps {
                         dir('Hello Jenkins!') {
                             script {
+                                // Проверка текущей директории
+                                echo "Current directory for Hello Jenkins!:"
+                                sh 'pwd'  // Выводит текущую директорию
+
+                                // Проверка наличия pom.xml
+                                echo "Checking for pom.xml in Hello Jenkins!:"
+                                sh 'ls -l pom.xml'  // Выводит файл pom.xml, если он есть
+
                                 // Сборка и тестирование для Hello Jenkins!
                                 echo "Building and testing Hello Jenkins!"
                                 sh 'mvn clean install'
@@ -31,6 +47,14 @@ pipeline {
                     steps {
                         dir('Hello World!') {
                             script {
+                                // Проверка текущей директории
+                                echo "Current directory for Hello World!:"
+                                sh 'pwd'  // Выводит текущую директорию
+
+                                // Проверка наличия pom.xml
+                                echo "Checking for pom.xml in Hello World!:"
+                                sh 'ls -l pom.xml'  // Выводит файл pom.xml, если он есть
+
                                 // Сборка и тестирование для Hello World!
                                 echo "Building and testing Hello World!"
                                 sh 'mvn clean install'
@@ -80,3 +104,4 @@ pipeline {
         }
     }
 }
+
