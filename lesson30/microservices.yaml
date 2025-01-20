@@ -1,12 +1,14 @@
 services:
   post_db:
+    container_name: post_db
     image: mongo:3.2
     volumes:
       - post_db:/data/db
     networks:
-      - monitoring
+      - logging
 
   ui:
+    container_name: ui
     image: ghcr.io/codeby-devops/ui:monitoring
     environment:
       - POST_SERVICE_HOST=post
@@ -14,26 +16,20 @@ services:
       - COMMENT_SERVICE_HOST=comment
       - COMMENT_SERVICE_PORT=9292
     ports:
-      - 9292:9292/tcp
+      - 9292:9292
     depends_on:
       - comment
       - post
+    logging:
+      driver: fluentd
+      options:
+        "fluentd-address": "localhost:24224"
+        "tag": "service.ui"
     networks:
-      - monitoring
-
-  post:
-    image: ghcr.io/codeby-devops/post:monitoring
-    environment:
-      - POST_DATABASE_HOST=post_db
-      - POST_DATABASE=posts
-    depends_on:
-      - post_db
-    ports:
-      - "5000:5000"
-    networks:
-      - monitoring
+      - logging
 
   comment:
+    container_name: comment
     image: ghcr.io/codeby-devops/comment:monitoring
     environment:
       - COMMENT_DATABASE_HOST=post_db
@@ -41,13 +37,28 @@ services:
     depends_on:
       - post_db
     networks:
-      - monitoring
-      
+      - logging
+
+  post:
+    container_name: post
+    image: ghcr.io/codeby-devops/post:monitoring
+    environment:
+      - POST_DATABASE_HOST=post_db
+      - POST_DATABASE=posts
+    depends_on:
+      - post_db
+    ports:
+      - 5000:5000
+    logging:
+      driver: fluentd
+      options:
+        "fluentd-address": "localhost:24224"
+        "tag": "service.post"
+    networks:
+      - logging
+
 volumes:
   post_db:
 
 networks:
-  monitoring:
-
-
-
+  logging:
